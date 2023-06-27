@@ -6,13 +6,18 @@
 
 from random import randint
 
+# print("Введите максимальную сумму чисел X и Y ")
+# sum_max = int(input())
+#sum = randint(0, 1000)
 sum = int(input())
+print("Сумма равна = ", sum)
 if sum % 2 == 0:
       product = randint(0, (sum // 2) * (sum // 2))
       print("Диапазон значений произведения", 0, (sum // 2) * (sum // 2))
 else:
       product = randint(0, (sum // 2) * ((sum // 2)+1))
       print("Диапазон значений произведения", 0, (sum // 2) * ((sum // 2)+1))
+
 #product = int(input())
 print("Произведение равно = ", product)
 for x in range(sum):
