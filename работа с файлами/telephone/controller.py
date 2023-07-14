@@ -16,7 +16,7 @@ def main():
             print("Успешно найдено\n")
         if num == 3:
             file_sort()
-            print("файл отсортирован\n")
+            print("Файл отсортирован\n")
 
 
 main()
