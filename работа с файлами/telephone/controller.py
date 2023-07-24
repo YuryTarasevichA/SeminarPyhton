@@ -17,6 +17,16 @@ def main():
         if num == 3:
             file_sort()
             print("Файл отсортирован\n")
+        if num == 4:
+            file_name = 'tel.txt'
+            line_to_delete = input('строка для удаления: ')
+            file_delete(file_name, line_to_delete)
+            print("Успешно удалено\n")
+        if num == 5:
+            file_content()
+        if num == 6:
+            file_change()
+            
 
 
 main()
